@@ -9,7 +9,7 @@
 
 (defn fibonacci [x] ;;Funcion recursiva para serie de Fibonacci
 (if (<= x 2) 1 ;;los dos primeros elementos dela serie siempre son "1"
-    (+ (fibonacci (- x 2)) (fibonacci (- x 1))))) ;; Se suma 
+    (+ (fibonacci (- x 2)) (fibonacci (- x 1))))) ;; Se suma el num de la serie en dos lugares menos con el numero con un lugar menos
 
 
 
